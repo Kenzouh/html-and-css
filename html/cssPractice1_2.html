@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>CSS Practice 2: Internal CSS</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Internal CSS practice">
+    <meta name="keywords" content="HTML, CSS, Internal CSS">
+    <meta name="author" content="Kenzo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta http-equiv="refresh" content="60"-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" type="image.jpg" href="/images/favicon.jpg">
+
+    <!--Internal CSS-->
+    <style> 
+        body{
+            background-color: #000000;
+        }
+
+        p{
+            color: #bfff9f;
+            font-size: 50px;
+        }
+        #p1{
+            color: #ffffff;
+            font-size: 80px;
+        }
+        #p2{
+            color: #fff398;
+            font-size: 60px;
+        }
+        h4{
+            color: #ffffff;
+        }
+        button{
+            background-color: #bfff9f;
+            border-radius: 5px;
+            font-size: 30px;
+        }
+        #chosenButton{
+            background-color: #fff398;
+            border-radius: 5px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+    <p id="p1"><b>~~ 3 ways of applying CSS ~~</b></p>
+    
+    <p>1. Inline CSS</p>
+    <p id="p2"><b>2. Internal CSS</b></p>
+    <p>3. External CSS</p>
+
+    <a href="cssPractice1_1.html" target="_self">
+        <button> Inline CSS</button>
+    </a>
+
+    <a href="cssPractice1_2.html" target="_self">
+        <button id="chosenButton">Internal CSS</button>
+    </a>
+
+    <a href="cssPractice1_3.html" target="_self">
+        <button>External CSS</button>
+    </a>
+
+    <h4> Internal CSS = is a type of CSS style where the CSS code is in the head tags 
+                        enclosed with style tags within the same file.</h4>
+
+    </center>
+</body>
+</html>
