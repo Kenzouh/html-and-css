@@ -1,0 +1,37 @@
+body{
+    background-color: #000000;
+}
+button{
+    background-color: #bfff9f;
+    border-radius: 5px;
+    font-size: 30px;
+}
+h4{
+    color: #ffffff;
+}
+p{
+    color: #bfff9f;
+    font-size: 50px;
+}
+#chosenButton{
+    background-color: #fff398;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#p1{
+    color: #ffffff;
+    font-size: 80px;
+}
+
+#p4{
+    color: #fff398;
+    font-size: 60px;
+}
+
+.unpicked{
+    color: #bfff9f;
+    font-size:50px
+}
+
+
+
