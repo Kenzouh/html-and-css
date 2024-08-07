@@ -1,0 +1,33 @@
+body{
+    /*background-color property*/
+    background-color: rgb(49, 47, 53) 
+}
+
+h1{
+    color: #88ffc1;
+}
+
+#p1{
+    color: aqua;
+}
+
+#p2{
+    color: rgb(255, 255, 255);
+}
+
+#p3{
+    color: #5e79fd;
+}
+
+#p4{
+    /*hsl = hue, saturation, lightness*/
+    color: hsl(23, 88%, 80%)
+}
+
+#p5{
+    color: #edbdff;
+}
+
+#p6{
+    color: #fff8b6;
+}
