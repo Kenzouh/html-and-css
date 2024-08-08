@@ -1,0 +1,47 @@
+/*Font Face Rule for local fonts*/
+@font-face{
+    src: url(/fonts/KalniaGlaze-VariableFont_wdth,wght.ttf);
+    
+    /*Can change or keep the font name*/
+    font-family: Kalnia-Glaze;
+}
+@font-face{
+    src: url(/fonts/KalniaGlaze-SemiBold.ttf);
+    font-family: Kalnia-SemiBold;
+}
+@font-face{
+    src: url(/fonts/DancingScript-Bold.ttf);
+    font-family: Dancing-Script;
+}
+
+body{
+    background-color: rgb(199, 199, 199);
+}
+
+#p1{
+    /*Note: not all fonts are universally accepted by all browsers
+    Fallback solution: add 2 font styles so if verdana isn't available, 
+                       the website will display the text as arial*/
+    font-family: Dancing-Script, Kalnia-Glaze, arial;
+    font-weight: bold;
+    font-size: 50px;
+}
+#p2{
+    /*Enclosed them in quotation marks if the font style has a space*/
+                           /*From Google*/ 
+    font-family: "Dancing-Script", "Kalnia-SemiBold", "Nunito", "lucida console", "courier new";
+    
+    /*Normally it is 16px*/
+    /*1em (standard)= 100% | 1.1em = 110% | 1.5em = 150%*/
+    font-size: 3em;
+    
+    /*Normal by default*/
+    font-weight: bold;
+
+    /*Normal by default*/
+    font-style: italic;
+
+
+
+    /*Google Fonts: fonts.google.com*/
+}
