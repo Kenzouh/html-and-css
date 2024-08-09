@@ -1,0 +1,21 @@
+body{
+    background-color: #1b1b1b;
+}
+
+#p1{
+    /*3 nos.: horizontal offset, vertical offset, blur*/
+    /*                color of shadow       You can add more than 1 shadow*/
+    text-shadow:5px 4px 3px #47e0ff, -5px -4px 3px #00ff66; /*# = color of shadow*/
+    color: #ffffff;
+    font-size: 80px;
+}
+#box1{
+    width: 400px;
+    height: 400px;
+    background-color: #69069e;
+    box-shadow: 10px 10px 5px;
+
+    text-shadow:5px 4px 3px #47e0ff, -5px -4px 3px #000000;
+    color: #ffffff;
+    font-size: 80px;
+}
