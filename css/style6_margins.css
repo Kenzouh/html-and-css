@@ -1,0 +1,62 @@
+/*Margins = space around an element. Area outside of any borders.
+  Border = "border." The line outside the shape. 
+  Padding = between the element itself and any borders.
+*/
+
+body{
+    background-color: #a8fffc;
+    margin:0px;
+}
+h1{
+    font-family: "courier new", "lucida console";
+    text-align: center;
+}
+p{
+    font-family: "lucida console", "courier new";
+    font-size: 20px;
+}
+
+.box{
+    border: 5px solid;
+    font-size: 1em;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+#box1{
+    background-color: #f8ff9d;
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    /*
+    Other margin properties:
+    margin-right: 50px;
+    margin: 50px; = applies 50px margin to top, right, left and bottom at the same time.
+    */
+}
+#box2{
+    background-color: #ffbcb8;
+    margin-left: 1000px;
+}
+#box3{
+    background-color: #83ecff;
+    /*For it to stay in the middle*/
+    margin: auto;
+}
+#box4{
+    background-color: #b8ffb3;
+    margin-left: auto;
+}
+
+#box5{
+    margin-right: auto;
+    background-color: #ffcaf9;
+}
+#box6{
+    margin-left: 280px;
+    background-color: #beabea;
+}
