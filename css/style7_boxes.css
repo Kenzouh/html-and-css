@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(218, 255, 203);
+    margin:0px;
+}
+
+p{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box{
+    border: 5px solid;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.group1{
+    background-color: #afffea;
+}
+
+.group2{
+    background-color: #fffbae;
+}
+
+.group3{
+    background-color: #e9a0ff;
+}
+
+.cell1{
+    margin-right: auto;
+}
+.cell2{
+    margin-left: 57px;
+}
+.cell3{
+    margin-left: 114px;
+}
+.cell4{
+    margin-left: 171px;
+}
+.cell5{
+    margin-left: 228px;
+}
+.cell6{
+    margin-left: 285px;
+}
+.cell7{
+    margin-left: 342px;
+}
+.cell8{
+    margin-left: 399px;
+}
+.cell9{
+    margin-left: 456px;
+}
+.cell10{
+    margin-left: 513px;
+}
+.cell11{
+    margin-left: 570px;
+}
+.cell12{
+    margin-left: 627px;
+}
+.cell13{
+    margin-left: 684px;
+}
+.cell14{
+    margin-left: 741px;
+}
+.cell15{
+    margin-left: 798px;
+}
+.cell16{
+    margin-left: 855px;
+}
+.cell17{
+    margin-left: 912px;
+}
+.cell18{
+    margin-left: 969px;
+}
+.cell19{
+    margin-left: 1026px;
+}
+.cell20{
+    margin-left: 1083px;
+}
+
+/*=========================================================================================*/
+
+.cell21{
+    margin-left: 1140px;
+}
+
+.cell22{
+    margin-left: 1197px;
+}
+.cell23{
+    margin-left: 1254px;
+}
+.cell24{
+    margin-left: 1311px;
+}
+.cell25{
+    margin-left: 1368px;
+}
+.cell26{
+    width: 85px;
+    margin-left: 1425px;
+}
