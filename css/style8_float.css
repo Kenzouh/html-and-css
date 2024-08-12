@@ -1,0 +1,33 @@
+body{
+    background-color: #ceffff;
+    border: 3px solid;
+
+    /*Stops overflow. Everything floating on the container (border) will be kept inside it*/
+    display: flow-root;
+}
+
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+#img2{
+    float: right;
+    margin-left: 10px;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+#span1{
+    font-weight: bold; 
+    color: #770092;
+}
+
+#span2{
+    color: #ff00ea; 
+    font-weight: bold;
+}
+
+#bold{
+    font-weight: bold;
+}
