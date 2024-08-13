@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>CSS Overflow</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="overflow">
+    <meta name="keywords" content="HTML, CSS, Overflow">
+    <meta name="author" content="Kenzo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta http-equiv="refresh" content="60"-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="icon" type="image/jpg" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="/css/style9_overflow.css">
+</head>
+<body>
+    <p id="toptext">~~ Overflow Styles ~~</p>
+
+    <div id="div1">
+        <p class="title">Visible Overflow</p>
+        <p class="description">This type of overflow is still visible. It goes out of the border despite 
+            the border being too small to put all of the texts inside it. These contents can still fit but
+            not the next few contents below. But hey, I'M STILL VISIBLE!  </p>
+    </div><br><br>
+
+    <div id="div2">
+        <p class="title">Hidden Overflow</p>
+        <p class="description">This type of overflow <span id="span1">hides the content</span> which exceeds
+            the limit of the boder below. However, the content below are still <span id="span2">copy-able</span>
+            and <span id="span2"> paste-able!</span> Try to copy-paste the contents below! Never gonna give you
+            up! Never gonna let you down! Never gonna run around and desert you! :D</p>
+    </div><br><br><br>
+    
+    <div id="div3">
+        <p class="title">Clip Overflow</p>
+        <p class="description">This type of overflow clips specific content only depending on what you 
+            declare when coding. The overflow-clip-margin that I declared has a value of 8px. Starting with 
+            this line, it's getting clipped off.
+        </p>
+    </div><br><br>
+
+    <div id="div4">
+        <p class="title">Scroll Overflow (fits)</p>
+        <p class="description">This type of overflow has a <span id="bold">scroll bar.</span> 
+            In this case, it is disabled since the content fits within this border. </p>
+    </div><br><br>
+
+    <div id="div4">
+        <p class="title">Scroll Overflow (doesn't fit)</p>
+        <p class="description">This type of overflow has a <span id="bold">scroll bar</span> similar above.
+        But, in this case, the content is much longer than the content from the previous scroll overflow. So,
+        kindly scroll below to see more contents!</p> <br><br>
+        
+        <p class="description" style="text-align: center">
+        Never gonna give you up<br>
+        Never gonna let you down<br>
+        Never gonna run around and desert you<br>
+        Never gonna make you cry<br>
+        Never gonna say goodbye<br>
+        Never gonna tell a lie and hurt you<br>
+        <p>
+    </div><br><br>
+
+    <div id="div5">
+        <p class="title">Overflow (Auto) [Fits]</p>
+        <p class="description">This type of overflow <span id="bold">excludes the scroll bar</span> 
+            if the content fits within the border</p>
+    </div><br><br>
+
+    <div id="div6">
+        <p class="title">Overflow (Auto) [Doesn't Fit]</p>
+        <p class="description">This type of overflow <span id="bold">includes the scroll bar</span>
+            if the content doesn't fit within the border. Like this content here, it doesn't fit 
+            within the border. Therefore, a scroll bar has been generated. You may use the scroll
+            bar at the right side of this border. It will help you see more of the contents within
+            this section.</p><br><br>
+
+        <p class="description" style="text-align: center">
+            Empoleon<br>
+            Togekiss<br>
+            Garchomp<br>
+            Hippowdon<br>
+            Bronzong<br>
+            Milotic
+        </p>
+    </div>
+
+</body>
+</html>
