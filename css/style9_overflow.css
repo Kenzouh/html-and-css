@@ -1,0 +1,92 @@
+@font-face{
+    src: url(fonts/DancingScript-Bold.ttf);
+    font-family: Dancing-Script;
+}
+/*Overflow = property that sets the desired behavior when content does not fit 
+             in the parent element box (overflows)
+             
+             overflow: visible = states if any inner elements will overflow, allow it to do so
+             overflow: hidden = any content outside becomes invisible (still interactable)
+             overflow: clip = similar to hidden.
+                overflow-clip-margin = tandem of clip property. We can set how far content displays 
+             overflow: scroll
+             overflow: auto 
+*/
+
+#div1{
+    border: 4px solid;
+    height: 125px;
+    background-color: #d4cfff;
+    /*By default it is overflow: visible;*/
+    overflow: visible; 
+}
+#div2{
+    border: 4px dashed;
+    height: 125px;
+    background-color: #b2ffd6;
+    overflow: hidden;
+}
+#div3{
+    border: 4px groove;
+    height: 125px;
+    background-color: #fce4ff;
+    overflow: clip;
+    overflow-clip-margin: 10px; /*The content will overflow by this amount then the rest is hidden*/
+}
+#div4{
+    border: 4px dotted;
+    height: 160px;
+    background-color: #c2dbff;
+    overflow: scroll;
+}
+#div5{
+    border: 4px;
+    border-top: dotted;
+    border-left: dotted;
+    border-right: double;
+    border-bottom: double;
+    height: 160px;
+    background-color: #fbffd2;
+    overflow: auto; /*will display scroll bar if needed. Won't display scroll bar if not needed*/  
+}
+#div6{
+    border: 4px;
+    border-top: double;
+    border-left: double;
+    border-right: dashed;
+    border-bottom: dashed;
+    height: 160px;
+    background-color: #fbffd2;
+    overflow: auto;
+}
+/*==========================================================================================*/
+#toptext{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+#span1{
+    font-weight: bold;
+    color: #aeaede;
+}
+#span2{
+    font-style: italic;
+    color: #ff0bba;
+}
+#bold{
+    font-weight: bold;
+}
+/*==========================================================================================*/
+.title{
+    font-family: Dancing-Script, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.description{
+    font-family: Arial;
+    font-size: 20px;
+}
+
