@@ -1,0 +1,130 @@
+/*
+    display = property specifies if/how an element is displayed
+
+    block-level = start on a new line, take up the full width available
+                  (h1, div, p, form, header, footer)
+
+    inline = do not start a new lines, width is limited to what is needed
+             (span element, anchor element (a), img element)    
+*/
+
+#div1{
+    background-color: #ff6868;
+    width: 100px;
+    height: 100px;
+    /*display property: changes the behavior of this element*/
+    display: inline;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+#div2{
+    background-color: #ff6868;
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    /*Kinda like invisible*/
+    visibility: hidden;
+
+    border-style: solid;
+}
+#div3{
+    background-color: #ff6868;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+#div4{
+    background-color: #ff6868;
+    width: 100px;
+    height: 100px;
+    /*Erases the element*/
+    display: none;
+}
+#div5{
+    background-color: #ff6868;
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+#span1{
+    background-color: #7979ff;
+    width: 100px;
+    height: 100px;
+    display: inline;
+
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #000000;
+}
+#span2{
+    background-color: #7979ff;
+    width: 100px;
+    height: 100px;
+    display: block;
+
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #000000;
+}
+#span3{
+    background-color: #7979ff;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #000000;
+}
+#span4{
+    background-color: #7979ff;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+#span5{
+    background-color: #7979ff;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #000000;
+}
+#span6{
+    background-color: #7979ff;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #000000;
+}
+#span7{
+    background-color: #7979ff;
+    width: 100px;
+    height: 100px;
+    display: inline;
+
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #000000;
+}
+p{
+    font-family: Georgia, "Times New Roman", Helvetica, serif;
+    font-size: 30px;
+    text-align: center;
+}
