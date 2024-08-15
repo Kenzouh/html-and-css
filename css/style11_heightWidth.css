@@ -1,0 +1,42 @@
+/*Asterisk = all elements*/
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: #878787;
+    height: 100vh; /*vh = viewport height*/
+}
+.boxUp{
+    background-color: #fffca1;
+    border: 2px solid;
+    /*height & widthproperty = auto (by default)*/
+    padding: 25px;
+    /*Disregard padding or any border when we're allocating height and width
+        box-sizing property takes that to consideration*/
+    
+    height: auto;
+    width: 20%;
+    float: left;
+    text-align: center;
+
+    /*max-width & min-width property will be prioritized more than the width property above*/
+    min-width: 50%;  
+    /*max-width:100%;*/
+    min-height:50%;
+
+    font-size: 30px;
+}
+.boxBelow{
+    background-color: #b6b0ff;
+    border: 2px solid;
+
+    padding: 20px;
+
+    float:right;
+    text-align: center;
+    max-height: 50%;
+    
+    max-width: 100%;
+
+    font-size: 20px;
+}
