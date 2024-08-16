@@ -1,0 +1,60 @@
+#introduction{
+    font-size: 60px;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+}
+.box{
+    text-align: center;
+    padding: 20px;
+    border: 5px solid;
+}
+#box1{ /*Relative*/
+    width: 250px;
+    height: 550px;
+    background-color: #bf6aff;
+    position: relative;
+
+    /*If negative value, it'll move them to the property which it's named of. 
+      If positive value, it'll be moved to the opposite of the property's name.*/
+    top: 0px;
+    
+    left:0px;
+}
+
+#box2{ /*Absolute*/
+    width: 200px;
+    height: 250px;
+    background-color: #ade4ff;
+    position: absolute;
+    bottom: 0px;
+}
+#box3{ /*Sticky*/
+    width: 250px;
+    height: 250px;
+    background-color: #b0ffda;
+    position: sticky;
+    top: 0px;
+    left: 100px; 
+}
+#box4{ /*Static*/
+    width: 250px;
+    height: 250px;
+    background-color: #fbffd3;
+    position: static;
+}
+
+
+#box5{ /*Fixed*/
+    width:200px;
+    height: 250px;
+    background-color: #ff96b7;
+    position: fixed;
+    right: 0;/*0 or 0px work*/
+    bottom: 0px;
+}
+#lyrics{
+    text-align: center;
+    font-size: 30px;
+
+}
