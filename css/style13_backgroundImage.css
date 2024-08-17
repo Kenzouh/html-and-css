@@ -1,0 +1,21 @@
+body{
+    /*It has a back slash because the file name has a space!*/
+    background-image: url(/images/Cute\ Pikachu.jpg);
+    /*no-repeat because by default, it repeats once you zoom out or the picture is too small*/
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-attachment: fixed;
+
+    /*Takes the entire space of the website background*/
+    background-size: cover;
+}
+
+.division{
+    background-color: #ff89e9;
+    border: 2px solid;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
