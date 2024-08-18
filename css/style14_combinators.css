@@ -1,0 +1,101 @@
+body{
+    background-color: #ead7ff;
+}
+#mainTitle{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*==================== Descendants Combinator ====================*/
+
+#container1{
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: #d1f0ff;
+}
+#container1 p{ /*Descendants Combinator*/
+    background-color: #ffb570;
+}
+#title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.gen1Pokemon{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*==================== Children Combinator ====================*/
+
+#container2{
+    border: 8px double;
+    border-color: #42223d;
+    background-color: #ffa5e6;
+}
+#container2 > p{ /*Children Combinator*/
+    background-color: #a7ffac;
+}
+.gen2Pokemon{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*==================== Adjacent Sibling Combinator ====================*/
+
+#container3{
+    border-top: 3px solid;
+    border-right: 3px solid;
+    border-left: 3px solid;
+    border-bottom: 3px dashed;
+    background-color: #a7ffac;
+}
+#container3 + p{ /*Adjacent Sibling Combinator*/
+    background-color: #42223d;
+}
+.gen3Pokemon{
+    font-size: 20px;
+    font-weight: bold;
+}
+#milotic{
+    color: #ffc3f9;
+}
+
+/*==================== General Sibling Combinator ====================*/
+
+#container4{
+    border: 5px dashed;
+    background-color: #88a2ff;
+}
+#container4 ~ p{ /*General Sibling Combinator*/
+    background-color: #3b0099;
+}
+#generalSibling{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #f6ffc6;
+    background-color: #3b0099;
+}
+.gen4Pokemon{
+    font-size:20px;
+    font-weight: bold;
+}
+.tradedPokemon{
+    color: #f6ffc6;
+}
+
+/*==================== Descendants Combinator ====================*/
+
+#container5{
+    border: 2px solid;
+    background-color: #d1f0ff;
+}
+#container5 p{
+    background-color: #ffb570;
+}
+.gen5Pokemon{
+    font-size: 20px;
+    font-weight: bold;
+}
