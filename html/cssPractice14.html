@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Combinators</title>
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="Implementing Combinators with CSS">
+    <meta name="keywords" content="HTML, CSS, Combinators">
+    <meta name="author" content="Kenzo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta http-equiv="refresh" content="60"-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="icon" type="image/jpg" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="/css/style14_combinators.css">
+</head> 
+<body>
+
+    <!--
+    Combinators = explains the relationship between listed selectors 
+          = descendant (the character before "=" is just a space) [grandchild]
+        > = child
+        + = adjacent sibling 
+        ~ = general sibling
+        
+
+        Note: All children are descendants. But not all descendants are children
+              General Sibling = children of the body element
+    -->
+
+    <p id="mainTitle">Types of Combinators</p>
+
+    <div id="container1">
+        <div id="title">Descendants Combinators</div>
+        <p class="gen1Pokemon">Charizard</p>
+        <p class="gen1Pokemon">Dragonite</p>
+            <div>
+                <p class="gen1Pokemon">Gyarados</p>
+            </div>
+    </div>
+    <p class="gen1Pokemon">Omastar</p>
+    <p class="gen1Pokemon">Kabutops</p>
+    <p class="gen1Pokemon">Aerodactyl</p>
+
+    <!--===================================================-->
+
+    <div id="container2">
+        <div id="title">Children Combinators</div>
+        <p class="gen2Pokemon">Pupitar</p>
+        <p class="gen2Pokemon">Larvitar</p>
+
+            <div>
+                <p class="gen2Pokemon">Feraligatr</p>
+            </div>
+    </div>
+    <p class="gen2Pokemon">Skarmory</p>
+    <p class="gen2Pokemon">Donphan</p>
+    <p class="gen2Pokemon">Yanma</p>
+
+    <!--===================================================-->
+
+    <div id="container3">
+        <div id="title">Adjacent Sibling</div>
+        <p class="gen3Pokemon">Clamperl</p>
+        <p class="gen3Pokemon">Huntail</p>
+            <div>
+                <p class="gen3Pokemon">Gorebyss</p>
+            </div>
+    </div>
+    <p class="gen3Pokemon" id="milotic">Milotic</p>
+    <p class="gen3Pokemon">Jirachi</p>
+    <p class="gen3Pokemon">Metagross</p>
+
+    <!--===================================================-->
+
+    <div id="container4">
+        <div id="generalSibling">General Sibling</div>
+        <p class="gen4Pokemon">Hippowdon</p>
+        <p class="gen4Pokemon">Garchomp</p>
+            <div>
+                <p class="gen4Pokemon">Mamoswine</p>
+            </div>
+    </div>
+    <p class="gen4Pokemon tradedPokemon">Dusknoir</p>
+    <p class="gen4Pokemon tradedPokemon">Magmortar</p>
+    <p class="gen4Pokemon tradedPokemon">Electivire</p>
+
+    <!--===================================================-->
+
+    <div id="container5">
+        <div id="title">Descendants Combinators</div>
+        <p class="gen5Pokemon">Pansage</p>
+        <p class="gen5Pokemon">Pansear</p>
+            <div>
+                <p class="gen5Pokemon">Panpour</p>
+            </div>
+    </div>
+    <p class="gen5Pokemon tradedPokemon">Conkeldurr</p>
+    <p class="gen5Pokemon tradedPokemon">Escavalier</p>
+    <p class="gen5Pokemon tradedPokemon">Accelgor</p>
+
+</body>
+</html>
