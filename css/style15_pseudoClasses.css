@@ -1,0 +1,659 @@
+/*link, hover = pseudo-class*/
+
+#introductory1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#introductory2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainTitle{
+    font-size: 50px;
+    font-weight: bold;
+    color: #005d47;
+    
+}
+#mainTitle:hover{
+    color: #003226;
+}
+#a1{
+    text-align: center;
+    margin-right: 5px;
+}
+#a1:link{
+    color: red;
+}
+#a1:hover{
+    color: #04a835;
+    font-size: 18px;
+}
+#a1:active{
+    color: green;
+}
+
+#a2{
+    text-align: center;
+}
+#a2:link{
+    color: red;
+}
+#a2:hover{
+    color: #ff0000;
+    font-size:10px; 
+}
+#a2:active{
+    color: #450000;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -8px;
+}
+.subtitle{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*========================================================*/
+
+#gen1Buttons{
+    display: flex;
+    justify-content:center;
+}
+
+.gen1Btn{
+    border-radius: 5px;
+    padding: 15px 30px;  
+
+    color: #000000;
+    font-weight: bold;
+}
+    #gen1poke1{
+        background-color: #ff9e9e;
+        margin-right: 20px;
+    }
+    #gen1poke1:hover{
+        background-color: #d67171;
+    }
+    #gen1poke1:active{
+        background-color: #931c1c;
+        color: #ffff00;
+    }
+
+    #gen1poke2{
+        background-color:#00ffff;
+        margin-right: 80px;
+    }
+    #gen1poke2:hover{
+        background-color: #00dbdb;
+    }
+    #gen1poke2:active{
+        background-color: #008f8f;
+    }
+
+    #gen1poke3{
+        background-color: #ffa5fa;
+        margin-right: 20px;
+    }
+    #gen1poke3:hover{
+        background-color: #b562b1;
+    }
+    #gen1poke3:active{
+        background-color: #900089;
+        color: #ffff00;
+    }
+
+    #gen1poke4{
+        background-color: #c87d7d;
+        margin-right: 80px;
+    }
+    #gen1poke4:hover{
+        background-color: #a35b5b;
+    }
+    #gen1poke4:active{
+        background-color: #704343;
+        color: #ffff00;
+    }
+
+    #gen1poke5{
+        background-color: #87ceeb;
+        margin-right: 20px;
+    }
+    #gen1poke5:hover{
+        background-color: #788ec7;
+    }
+    #gen1poke5:active{
+        background-color: #4a5a83;
+        color: #ffff00;
+    }
+
+    #gen1poke6{
+        background-color: #ffff00;
+    }
+    #gen1poke6:hover{
+        background-color: #cece06;
+    }
+    #gen1poke6:active{
+        background-color: #acac4e;
+    }
+
+/*========================================================*/
+
+#gen2Buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.gen2Btn{
+    border-radius: 5px;
+    padding: 15px 30px;
+
+    color: #000000;
+    font-weight: bold;
+}
+
+    #gen2poke1{
+        background-color: #68b4ff;
+        margin-right: 20px;
+    }
+    #gen2poke1:hover{
+        background-color: #0080ff;
+    }
+    #gen2poke1:active{
+        background-color: #246dae;
+    }
+
+    #gen2poke2{
+        background-color: #ffadda;
+        margin-right: 80px;
+    }
+    #gen2poke2:hover{
+        background-color: #ff59b4;
+    }
+    #gen2poke2:active{
+        background-color: rgb(227, 54, 149)
+    }
+
+    #gen2poke3{
+        background-color: #ffffff;
+        margin-right: 20px;
+    }
+    #gen2poke3:hover{
+        background-color: #b3b3b3;
+    }
+    #gen2poke3:active{
+        background-color: #6e6e6e;
+        color: #ffff00;
+    }
+
+    #gen2poke4{
+        background-color: #454545;
+        color: #ffff00;
+        margin-right: 80px;
+    }
+    #gen2poke4:hover{
+        background-color: #232222;
+    }
+    #gen2poke4:active{
+        background-color: #000000;
+    }
+
+    #gen2poke5{
+        background-color: #ffc0cb;
+        margin-right: 20px;
+    }
+    #gen2poke5:hover{
+        background-color: #be858f;
+    }
+    #gen2poke5:active{
+        background-color: #85535c;
+        color: #ffff00;
+    }
+
+    #gen2poke6{
+        background-color: #6fb96f;
+    }
+    #gen2poke6:hover{
+        background-color: #396b39;
+    }
+    #gen2poke6:active{
+        background-color: #2d5e2d;
+        color: #ffff00;
+    }
+
+/*========================================================*/
+
+#gen3Buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.gen3Btn{
+    border-radius: 5px;
+    padding: 15px 30px;
+
+    color: #000000;
+    font-weight: bold;
+}
+
+    #gen3poke1{
+        background-color: #7790ff;
+        margin-right: 20px;
+    }
+    #gen3poke1:hover{
+        background-color: #3e59d3;
+    }
+    #gen3poke1:active{
+        background-color: #0d2694;
+    }
+
+    #gen3poke2{
+        background-color: #8e8ec3;
+        margin-right: 80px;
+    }
+    #gen3poke2:hover{
+        background-color: #75759e;
+    }
+    #gen3poke2:active{
+        background-color: #50506f;
+        color: #ffff00;
+    }
+
+    #gen3poke3{
+        background-color: #66ee64;
+        margin-right: 20px;
+    }
+    #gen3poke3:hover{
+        background-color: #51c34f;
+    }
+    #gen3poke3:active{
+        background-color: #328130;
+    }
+
+    #gen3poke4{
+        background-color: #333353;
+        color: #ffff00;
+        margin-right: 80px;
+    }
+    #gen3poke4:hover{
+        background-color: #202035;
+    }
+    #gen3poke4:active{
+        background-color: #1e1e24;
+    }
+
+    #gen3poke5{
+        background-color: #fe889c;
+        margin-right: 20px;
+    }
+    #gen3poke5:hover{
+        background-color: #f14f6a;
+    }
+    #gen3poke5:active{
+        background-color: #ff133a;
+    }
+
+    #gen3poke6{
+        background-color: #1515b1;
+        color: #ffff00;
+    }
+    #gen3poke6:hover{
+        background-color: #0b0b8b;
+    }
+    #gen3poke6:active{
+        background-color: #03033f;
+    }
+
+/*========================================================*/
+
+#gen4Buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.gen4Btn{
+    border-radius: 5px;
+    padding: 15px 30px; 
+
+    color: black;
+    font-weight: bold;
+}
+
+    #gen4poke1{
+        background-color: #5165a9;
+        color: #ffff00;
+        margin-right: 20px;
+    }
+    #gen4poke1:hover{
+        background-color: #4c5d96;
+    }
+    #gen4poke1:active{
+        background-color: #313c61;
+    }
+
+    #gen4poke2{
+        background-color: #708090;
+        margin-right: 80px;
+    }
+    #gen4poke2:hover{
+        background-color: #4c5763;
+    }
+    #gen4poke2:active{
+        background-color: #262c32;
+        color: #ffff00;
+    }
+
+    #gen4poke3{
+        background-color: #99b65e;
+        margin-right: 20px;
+    }
+    #gen4poke3:hover{
+        background-color: #6e863f;
+    }
+    #gen4poke3:active{
+        background-color: #39471c;
+        color: #ffff00;
+    }
+
+    #gen4poke4{
+        background-color: #ffef5c;
+        margin-right: 80px;
+    }
+    #gen4poke4:hover{
+        background-color: #f5b039;
+    }
+    #gen4poke4:active{
+        background-color: #f56e39;
+    }
+
+    #gen4poke5{
+        background-color: #fe889c;
+        margin-right: 20px;
+    }
+    #gen4poke5:hover{
+        background-color: #f14f6a;
+    }    
+    #gen4poke5:active{
+        background-color: #ff133a;
+    }
+
+    #gen4poke6{
+        background-color: #212161;
+        color: #ffff00;
+    }
+    #gen4poke6:hover{
+        background-color: #252544;
+    }
+    #gen4poke6:active{
+        background-color: #060632;
+    }
+
+/*========================================================*/
+
+#gen5Buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.gen5Btn{
+    border-radius: 5px;
+    padding: 15px 30px;
+
+    color: #000000;
+    font-weight: bold;
+}
+
+    #gen5poke1{
+        background-color: #38388e;
+        color: #ffff00;
+        margin-right: 20px;
+    }
+    #gen5poke1:hover{
+        background-color: #25255f;
+    }
+    #gen5poke1:active{
+        background-color: #18183e;
+    }
+
+    #gen5poke2{
+        background-color: #851124;
+        color: #ffff00;
+        margin-right: 80px;
+    }
+    #gen5poke2:hover{
+        background-color: #6d0d1d;
+    }
+    #gen5poke2:active{
+        background-color: #550815;
+    }
+
+    #gen5poke3{
+        background-color: #c0c0c0;
+        margin-right: 20px;
+    }
+    #gen5poke3:hover{
+        background-color: #999898;
+    }
+    #gen5poke3:active{
+        background-color: #5d5d5d;
+        color: #ffff00;
+    }
+    
+    #gen5poke4{
+        background-color: #343434;
+        color: #ffff00;
+        margin-right: 80px;
+    }
+    #gen5poke4:hover{
+        background-color: #2f2d2d;
+    }
+    #gen5poke4:active{
+        background-color: #151515;
+    }
+
+    #gen5poke5{
+        background-color: #f8f8ff;
+        margin-right: 20px;
+    }
+    #gen5poke5:hover{
+        background-color: #cecece;
+    }
+    #gen5poke5:active{
+        background-color: #423d3d;
+        color: #ffff00;
+    }
+
+    #gen5poke6{
+        background-color: #a70000;
+        color: #ffff00;
+    }
+    #gen5poke6:hover{
+        background-color: #6c0000;
+    }
+    #gen5poke6:active{
+        background-color: #440000;
+    }
+
+/*========================================================*/
+
+.listTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+#gen1{ /*For the BG color when hovered*/
+    width: 180px;
+    
+}
+#gen1:hover{
+    background-color: #ff6464;
+    font-size: 30px;
+}
+
+    /*"not" pseudo-class = does the opposite. 
+                       Anything that is NOT in the state of something*/
+    /*
+    li:not(:hover){
+        color: #808080;
+    }
+    */
+    /*"nth child" pseudo-class = anything that's selected will possess these values*/
+
+    /*
+    li:nth-child(1){
+        background-color: #00b7ff;
+    }
+        /*For every 3rd element*/
+
+    /*
+    li:nth-child(3n){
+        background-color: #00b7ff;
+    }
+    */
+
+        /*For every 3rd element + the beginning*/
+    /*
+    li:nth-child(3n+1){
+        background-color: #00b7ff;
+    }
+    li:nth-child(odd){
+        background-color: #c2ff81;
+    }
+    li:nth-child(even){
+        background-color: #ffa989;
+    }
+    */
+    
+    .gen1ListItem{
+        font-size: 20px;
+    }
+    .gen1ListItem:hover{
+        background-color: #ffb0b0;
+        width: 120px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+/*===========*/
+
+#gen2{ /*For the BG color when hovered*/
+    width: 180px;
+}
+#gen2:hover{
+    background-color:#ffa676;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+    .gen2ListItem{
+        font-size: 20px;
+    }
+
+    .gen2ListItem:hover{
+        background-color: #ffd3bb;
+        width: 120px;
+
+        font-size:25px;
+        font-weight: bold;
+    }
+
+/*===========*/
+
+#gen3{
+    width: 190px;
+}
+#gen3:hover{
+    background-color: #89de89;
+    font-size: 30px;
+}
+
+    .gen3ListItem{
+        font-size: 20px;
+    }
+
+    .gen3ListItem:hover{
+        background-color: #adffad;
+        width: 120px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+/*===========*/
+
+#gen4{
+    width: 200px;
+}
+#gen4:hover{
+    background-color: #add8e6;
+    font-size: 30px;
+}
+
+    .gen4ListItem{
+        font-size: 20px;
+    }
+    .gen4ListItem:hover{
+        background-color: #b9edff;
+        width: 130px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+/*===========*/
+
+#gen5{
+    width: 190px;
+}
+#gen5:hover{
+    background-color: #ffff8e;
+    font-size: 30px;
+}
+
+    .gen5ListItem{
+        font-size: 20px;
+    }
+
+    .gen5ListItem:hover{
+        background-color: #ffffc3;
+        width: 140px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+/*========================================================*/
+
+#Gift{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#Gift p{
+    background-color: #d0feff;
+    padding: 10px;
+    width: 400px;
+    display: none;
+    
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Gift:hover p{
+    display: flex;
+
+}
+
+/*
+#a2:visited{
+    color: blue;
+}
+*/
