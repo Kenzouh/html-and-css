@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Pseudo-Elements</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Pseudo Elements implementation">
+    <meta name="keywords" content="HTML, CSS, Pseudo-Elements">
+    <meta name="author" content="Kenzo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta http-equiv="refresh" content="60"-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" type="image/jpg" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="/css/style16_pseudoElements.css">
+</head>
+<body>
+    <div id="mainTitle">
+    <p>Pseudo-Elements</p>
+    </div>
+    <div id="subtitle">
+    <p>Pseudo-Elements = styles specific parts of an element.</p>
+    </div>
+    <hr>
+    <p id="alert">Try selecting (click-and-dragging) the texts below!<br>[Also scroll down]</p>
+
+    <ol type="I" id="RomanNumerals">
+
+        <li class="gen">Generation 1: Kanto | Fave Pokemon</li>
+            <ol type="A">
+                <li class="gen1Pokemon">Charizard</li>
+                <li class="gen1Pokemon">Gyarados</li>
+                <li class="gen1Pokemon">Alakazam</li>
+                <li class="gen1Pokemon">Tauros</li>
+                <li class="gen1Pokemon">Snorlax</li>
+                <li class="gen1Pokemon">Dragonite</li>
+            </ol>
+
+        <li class="gen">Generation 2: Johto | Fave Pokemon</li>
+            <ol type="A">
+                <li class="gen2Pokemon">Feraligatr</li>
+                <li class="gen2Pokemon">Espeon</li>
+                <li class="gen2Pokemon">Miltank</li>
+                <li class="gen2Pokemon">Umbreon</li>
+                <li class="gen2Pokemon">Slowking</li>
+                <li class="gen2Pokemon" title="Click and drag your cursor around me!">Tyranitar</li>
+            </ol>
+        
+        <li class="gen">Generation 3: Hoenn | Fave Pokemon</li>
+            <ol type="A">
+                <li class="gen3Pokemon" title="Click and drag your cursor around me!">Swampert</li>
+                <li class="gen3Pokemon" title="Click and drag your cursor around me!">Armaldo</li>
+                <li class="gen3Pokemon" title="Click and drag your cursor around me!">Cradily</li>
+                <li class="gen3Pokemon" title="Click and drag your cursor around me!">Salamence</li>
+                <li class="gen3Pokemon" title="Click and drag your cursor around me!">Milotic</li>
+                <li class="gen3Pokemon" title="Click and drag your cursor around me!">Metagross</li>
+            </ol>
+
+        <li class="gen">Generation 4: Sinnoh | Fave Pokemon</li>
+            <ol type="A">
+                <li class="gen4Pokemon" title="Click and drag your cursor around me!">Empoleon</li>
+                <li class="gen4Pokemon" title="Click and drag your cursor around me!">Bronzong</li>
+                <li class="gen4Pokemon" title="Click and drag your cursor around me!">Hippowdon</li>
+                <li class="gen4Pokemon" title="Click and drag your cursor around me!">Togekiss</li>
+                <li class="gen4Pokemon" title="Click and drag your cursor around me!">Milotic</li>
+                <li class="gen4Pokemon" title="Click and drag your cursor around me!">Garchomp</li>
+            </ol>
+
+        <li class="gen">Generation 5: Unova | Fave Pokemon</li>
+            <ol type="A">
+                <li class="gen5Pokemon" title="Click and drag your cursor around me!">Samurott</li>
+                <li class="gen5Pokemon" title="Click and drag your cursor around me!">Krookodile</li>
+                <li class="gen5Pokemon" title="Click and drag your cursor around me!">Ferrothorn</li>
+                <li class="gen5Pokemon" title="Click and drag your cursor around me!">Gothitelle</li>
+                <li class="gen5Pokemon" title="Click and drag your cursor around me!">Chandelure</li>
+                <li class="gen5Pokemon" title="Click and drag your cursor around me!">Volcarona</li>
+            </ol>
+            
+    </ol>
+
+    <p id="alert2">Try zooming out here!</p>
+
+    <p id="notes"><span class="bold">Notes:</span> Pseudo-Elements aren't selectable. The pseudo-elements
+         include <span class="bold">::first-letter</span>(usually for magazines), 
+         <span class="bold">::first-line</span> (coloring the first line or making the text bigger/smaller),
+         <span class="bold">::marker</span> (bullets), <span class="bold">::before</span> (anything you wanna 
+         put before the first character), <span class="bold">::selection</span> (when selecting texts, you 
+         can define the background color and the color of the text) and <span class="bold">::after</span>
+        (lets you put anything after the texts/content by using the "content: "";" property).
+    </p>
+</body>
+</html>
