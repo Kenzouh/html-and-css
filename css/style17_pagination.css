@@ -1,0 +1,410 @@
+
+/*=============================== Page 1 ===============================*/
+
+
+
+#p1_body{
+    background-color: #ffcccc;
+}
+    #p1_title{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .p1_description{
+        font-size: 20px;
+        text-align: justify;
+        text-indent: 30px;
+    }
+
+        #imgKanto1{
+            height: 200px;
+            width: 300px;
+
+            float: left;
+            margin-right: 20px;
+
+            border: 3px solid #000000;
+        }
+        #p1_hr{
+            border-top: 2px solid #000000;
+        }
+        #imgKanto2{
+            height: 200px;
+            width: 350px;
+            float: right;
+            margin-left: 20px;
+
+            border: 3px solid #000000;
+        }
+
+/*============================================*/
+.p1_pagination{
+    font-size: 30px;
+
+    margin: auto;
+    height: 60px;
+    width: 350px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #ffffd8;
+}
+    .p1_pagination a{
+        color: #000000;
+        /*The underline*/
+        text-decoration: none;
+        padding: 8px 10px;
+        display: inline-block;
+
+        
+    }
+        /*Within the pagination class, within any anchor tags, find the class that's active*/
+        .p1_pagination a.p1_active{
+            background-color: #66ff66;
+            font-weight: bold;
+            border-radius: 5px;
+            border: 2px #4f544d solid;
+        }
+        /*If any element is not active... Then you hovered, it'll turn gray.*/
+        .p1_pagination a:hover:not(.p1_active){
+            background-color: #cdc2c2;
+            border-radius: 5px;
+        }
+            /*When clicking on inactive buttons*/
+            .p1_pagination a.p1_inactive:active{
+                background-color: #818181;
+                font-size: 27px;
+            }
+            .p1_pagination a.p1_inactiveArrowRight:active{
+                background-color: #818181;
+                font-size: 27px;
+            }
+
+
+
+/*=============================== Page 2 ===============================*/
+
+
+
+#p2_body{
+    background-color: #ffde9f;
+}
+    #p2_title{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .p2_description{
+        font-size: 20px;
+        text-align: justify;
+        text-indent: 30px;
+    }
+
+        #imgJohto1{
+            height: 200px;
+            width: 300px;
+
+            float: right;
+            margin-left: 20px;
+
+            border: 3px solid #000000;
+        }
+        #p2_hr{
+            border-top: 2px solid #000000;
+        }
+        #imgJohto2{
+            height: 200px;
+            width: 300px;
+
+            float: left;
+            margin-right: 20px;
+
+            border: 3px solid #000000;
+        }   
+/*============================================*/
+.p2_pagination{
+    font-size: 30px;
+    height: 60px;
+    width: 350px;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #ffffd8;
+}
+
+    .p2_pagination a{
+        color: #000000;
+        text-decoration: none;
+        padding: 8px 10px;
+        display: inline-block;
+    }
+    .p2_pagination a.p2_active{
+        font-weight: bold;
+        background-color: #66ff66;
+
+        border: 2px solid;
+        border-radius: 5px; 
+    }
+    .p2_pagination a:hover:not(.p2_active){
+        background-color: #cdc2c2;
+        border-radius: 5px;
+    }
+
+        /*When clicking on inactive buttons*/
+        .p2_pagination a.p2_inactive:active{
+            background-color: #818181;
+            font-size: 27px;
+        }
+        .p2_pagination a.p2_inactiveArrowLeft:active{
+            background-color: #818181;
+            font-size: 27px;
+        }
+        .p2_pagination a.p2_inactiveArrowRight:active{
+            background-color: #818181;
+            font-size: 27px;
+        }
+
+
+
+/*=============================== Page 3 ===============================*/
+
+
+
+#p3_body{
+    background-color: #c7ffc7;
+}
+    #p3_title{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .p3_description{
+        font-size: 20px;
+        text-align: justify;
+        text-indent: 30px;
+    }
+    
+        #imgHoenn1{
+            height: 200px;
+            width: 300px;
+
+            float: left;
+            margin-right: 20px;
+
+            border: 3px solid #000000;
+        }
+        #p3_hr{
+            border-top: 2px solid #000000;
+        }
+        #imgHoenn2{
+            height: 200px;
+            width: 300px;
+            
+            float: left;
+            margin-right: 20px;
+
+            border: 3px solid #000000;
+        }
+/*============================================*/
+.p3_pagination{
+    font-size: 30px;
+    height: 60px;
+    width: 350px;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #ffffd8;
+}
+    .p3_pagination a{
+        color: #000000;
+        text-decoration: none;
+        padding: 8px 10px;
+        display: inline-block;
+    }
+
+        .p3_pagination a.p3_active{
+            font-weight: bold;
+            background-color: #66ff66;
+            border: 2px solid;
+            border-radius: 5px;
+        }
+
+        /*Includes the arrow buttons*/
+        .p3_pagination a:hover:not(.p3_active){
+            background-color: #cdc2c2;
+            border-radius: 5px;
+        }
+        
+        .p3_pagination a.p3_inactive:active{
+            background-color: #818181;
+            font-size: 27px;
+        }
+
+        .p3_pagination a.p3_inactiveArrowLeft:active{
+            background-color: #818181;
+            font-size: 27px;
+        }
+
+        .p3_pagination a.p3_inactiveArrowRight:active{
+            background-color: #818181;
+            font-size: 27px;
+        }
+
+
+
+/*=============================== Page 3 ===============================*/
+
+
+
+#p4_body{
+    background-color: #d5efff;
+}
+#p4_title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.p4_description{
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+    #imgSinnoh1{
+        height: 200px;
+        width: 350px;
+
+        float: right;
+        margin-left: 20px;
+        border: 3px solid #000000;
+    }
+
+    #p4_hr{
+        border-top: 2px solid #000000;
+    }
+    #imgSinnoh2{
+        height: 200px;
+        width: 350px;
+
+        float: right;
+        margin-left: 20px;
+        border: 3px solid #000000;
+    }
+/*============================================*/
+.p4_pagination{
+    font-size: 30px;
+    height: 60px;
+    width: 350px;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #ffffd8;    
+}
+
+    .p4_pagination a{
+        color: #000000;
+        padding: 8px 10px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .p4_pagination a.p4_active{
+        font-weight: bold;
+        background-color: #66ff66;
+        border: 2px solid #000000;
+        border-radius: 5px;
+    }
+
+    .p4_pagination a:hover:not(.p4_active){
+        background-color: #cdc2c2;
+        border-radius: 5px;
+    }
+        .p4_pagination a.p4_inactive:active{
+            background-color: #818181;
+            font-size: 27px;
+        }
+
+        .p4_pagination a.p4_inactiveArrowLeft:active{
+            background-color: #818181;
+            font-size: 27px;
+        }
+        .p4_pagination a.p4_inactiveArrowRight:active{
+            background-color: #818181;
+            font-size: 27px;
+        }
+
+
+    
+/*=============================== Page 3 ===============================*/
+
+
+
+#p5_body{
+    background-color: #ffffc7;
+}
+#p5_title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#p5_description{
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+}
+    #imgUnova1{
+        height: 200px;
+        width: 300px;
+
+        float: left;
+        margin-right: 30px;
+
+        border: 3px solid #000000;
+    }
+    #p5_hr{
+        border-top: 2px solid #000000;
+    }
+    #imgUnova2{
+        height: 200px;
+        width: 300px;
+
+        float: right;
+        margin-left: 30px;
+
+        border: 3px solid #000000;
+    }
+/*============================================*/
+.p5_pagination{
+    font-size: 30px;
+    height: 60px;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #fbcfff;
+}
+    .p5_pagination a{
+        color: #000000;
+        padding: 8px 10px;
+        text-decoration: none;
+        display: inline-block;
+    }
+    .p5_pagination a.p5_active{
+        font-weight: bold;
+        border: 2px solid #000000;
+        border-radius: 5px;
+        background-color: #66ff66;
+    }
+    .p5_pagination a:hover:not(.p5_active){
+        background-color: #cdc2c2;
+        border-radius: 5px;
+    }
+    .p5_pagination a.p5_inactive:active{
+        background-color: #818181;
+        font-size: 27px;
+    }
+    .p5_pagination a.p5_inactiveArrowLeft:active{
+        background-color: #818181;
+        font-size: 27px;
+    }
