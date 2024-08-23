@@ -1,0 +1,52 @@
+body{
+    margin: 0px; /*To remove the margin in the navigation bar*/
+}
+
+h1{
+    text-align: center;
+}
+
+main{ /*For the main contents not to be leaning on the sides.*/
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*========== Navigation Bar ==========*/
+
+.navbar ul{
+    list-style-type: none; /*Removes bullet points*/
+    background-color: #404040;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+    .navbar a{
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        padding: 15px;
+    }
+
+    .navbar li{
+        float: left;
+    }
+
+    .here{
+        font-weight: bold;
+        background-color: #292929;
+    }
+
+        li:hover{
+            background-color: #3a3a3a;
+        }
+        li:active{
+            background-color: #292929;
+        }
+
+/*
+BGColor: #404040;
+Hover: #3a3a3a;
+Active: #292929;
+*/
