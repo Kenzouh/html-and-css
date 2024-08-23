@@ -1,0 +1,237 @@
+/*Drop Down Menu contents*/
+
+.dropdown{
+    /*Upon hovering the white area, it doesn't get hovered anymore. 
+      It only gets hovered when you hover the button itself*/
+    display: inline-block;
+    border: 2px solid;
+}
+    .dropdown:hover .content{
+        display: block;
+    }
+
+
+    .dropdown button{
+        font-size: 15px;
+        padding: 10px 15px;
+        background-color: #ffffff;
+        border: none;
+        cursor: pointer; /*When the button is hovered, the cursor will be a pointer*/
+    }
+        .dropdown:hover button{
+            background-color: hsl(0, 0%, 70%);
+        }
+
+
+        .dropdown .content{
+            display: none;
+            position: absolute; /*For the drop-down to not push the contents below.*/
+            background-color: #f2f2f2;
+            min-width: 100px;
+            /*          1st value: horizontal positioning | 
+                    2nd value: vertical positioning
+                         3rd value: level of blur
+                             4th value: color*/
+                                                     /*80% opacity*/
+            box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+        }
+            .dropdown:hover .content{
+            display: block;
+        }
+
+
+            .dropdown a{
+                display: block; /*For the subsections to be below one another*/
+                color: #000000;
+                text-decoration: none; /*To remove the underline*/
+                padding: 10px 15px;
+            }
+                .dropdown a:hover:not(.here){
+                    background-color: hsl(0, 0%, 90%);
+                }
+                .dropdown a:active:not(.here){
+                    background-color: hsl(0, 0%, 80%);
+                }
+
+
+.here{
+    font-weight: bold;
+    background-color: #fd6bff;
+}
+
+/*============================ Pagination Review ============================*/
+
+/*General Objects*/
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.description{
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+}
+hr{
+    border-top: 2px solid #000000;
+}
+
+.pagination{
+    font-size: 30px;
+    height: 60px;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #ffffa5;
+}
+
+    .pagination a{
+        color: #000000;
+        text-decoration: none;
+        padding: 8px 10px;
+        display: inline-block;
+    }
+
+    .pagination a.active{
+        font-weight: bold;
+        background-color: #66ff66;
+        border: 2px solid #000000;
+        border-radius: 5px;
+    }
+    .pagination a:hover:not(.active){
+        background-color: #cdc2c2;
+        border-radius: 5px;
+    }
+
+    .pagination a.inactive:active{
+        background-color: #777777;
+        font-size: 27px;
+    }
+
+    .pagination a.inactiveArrow:active{
+        background-color: #777777;
+        font-size: 27px;
+    }
+
+    
+/*------------------------- Page 1 -------------------------*/
+#p1_body{
+    background-color: #ffb7b7;
+}
+
+    #imgKanto1{
+        height: 200px;
+        width: 300px;
+
+        float: left;
+        margin-right: 20px;
+
+        border: 3px solid #000000;
+    }
+    #imgKanto2{
+        height: 200px;
+        width: 300px;
+        
+        float: right;
+        margin-left: 20px;
+
+        border: 3px solid #000000;
+    }
+/*------------------------- Page 2 -------------------------*/
+
+#p2_body{
+    background-color: #ffab66;
+}
+    #imgJohto1{
+        height: 200px;
+        width: 350px;
+
+        float: right;
+        margin-left: 20px;
+
+        border: 3px solid #000000;
+    }
+    #imgJohto2{
+        height: 200px;
+        width: 300px;
+
+        float: left;
+        margin-right: 20px;
+
+        border: 2px solid #000000;
+    }
+/*------------------------- Page 3 -------------------------*/
+
+#p3_body{
+    background-color: #aeffb2;
+}
+
+    #imgHoenn1{
+        height: 200px;
+        width: 300px;
+
+        float: left;
+        margin-right: 20px;
+
+        border: 2px solid #000000;
+    }
+    #imgHoenn2{
+        height: 200px;
+        width: 300px;
+
+        float: left;
+        margin-right: 20px;
+
+        border: 2px solid #000000;
+    }
+
+/*------------------------- Page 4 -------------------------*/
+
+#p4_body{
+    background-color: #cbcbff;
+}
+    #imgSinnoh1{
+        height: 200px;
+        width: 300px;
+        
+        float: right;
+        margin-left: 20px;
+
+        border: 2px solid #000000;
+    }
+    #imgSinnoh2{
+        height: 200px;
+        width: 300px;
+
+        float: right;
+        margin-left: 20px;
+
+        border: 2px solid #000000;
+    }
+
+/*------------------------- Page 5 -------------------------*/
+
+#p5_body{
+    background-color: #ffff86;
+}
+    #imgUnova1{
+        height: 200px;
+        width: 300px;
+
+        float: left;
+        margin-right: 20px;
+
+        border: 2px solid #000000;
+    }
+    #imgUnova2{
+        height: 200px;
+        width: 300px;
+
+        float: right;
+        margin-left: 20px;
+
+        border: 2px solid #000000;
+    }
