@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Website Layout</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Website Layout at its finest.">
+    <meta name="keywords" content="HTML, CSS, Website, Website Layout">
+    <meta name="author" content="Kenzo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta http-equiv="refresh" content="60"-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" type="image/jpg" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="/css/style20_websiteLayout.css">
+</head>
+<body>
+    
+    <!--
+    semantic tags = Keep your content organized
+                    Better for SEO
+                    Assists screen readers
+                    Other tech for accessibility
+
+    Ex.:
+        <header>    = introductory content 
+        <nav>       = navigation bar, links
+        <main>      = main content (section, aside, article, div)
+        <section>   = dependent content (you can put anything you want here)
+        <aside>     = side content
+        <article>   = independent content
+        <footer>    = closing content (author info., copyright, navigational links)
+    
+    -->
+    <header>
+        <h2>Header Part</h2>
+        <p>This is where the introductory content go.</p>
+    </header>
+
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Contact</a></li>
+            <li id="navbarNote"><a href="">THIS DOESN'T FUNCTION! THIS IS JUST AN EXAMPLE LAYOUT!</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+        <!-- Sub-Elements -->
+        <aside>
+            <h2>Aside Part</h2>
+
+            <p><b>Side content:</b> this represents a section of a page that 
+                consists of content that is tangentially related to the 
+                content around the aside element, and which could be 
+                considered separate from that content.</p>
+        </aside>
+
+
+        <section>
+            <h2>Section Part</h2>
+
+            <p><b>Dependent content:</b> you can put anything you want here.</p>
+
+            <p>Pokémon is a Japanese media franchise consisting of video games, 
+                animated series and films, a trading card game, and other related 
+                media. The franchise takes place in a shared universe in which 
+                humans co-exist with creatures known as Pokémon, a large variety 
+                of species endowed with special powers.</p>
+        </section>
+
+
+        <article>
+            <h2>Article Part</h2>
+
+            <p><b>Independent Content:</b> example is a news article. Even if this 
+                portion gets cut off or put in a different page, it'll still
+                make sense. Unlike section, when section is put in a different
+                page, for example, the topic is about Pokemon, then it was put
+                to a cooking website, it won't make sense as it'll be irrelevant.</p>
+        </article>
+    </main>
+
+
+
+    <footer>
+        <h2>Footer Part</h2>
+
+        <p>This is where the closing content go such as author info., copyright and 
+            navigational links</p>
+    </footer>
+</body>
+</html>
