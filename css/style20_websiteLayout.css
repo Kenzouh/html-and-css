@@ -1,0 +1,116 @@
+*{ /*Asterisk = all elements*/
+    box-sizing: border-box; /*When calculating the width, factor the padding.*/
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #979797;
+    text-align: center;
+    padding: 25px;
+}
+
+/*========================================================*/
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #464646;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+}
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 25px;
+}
+
+.navbar li{
+    float: left;
+}
+
+#navbarNote{
+    margin-left:auto;
+}
+
+#navbarNote a{
+    color: #ff9f9f;
+    font-weight: bolder;
+}
+
+    .navbar a:not(#navbarNote):hover{
+        color: #fff955;
+    }
+
+    .navbar li:not(#navbarNote):hover{
+        background-color: #777777;
+    }
+
+    .navbar a:not(#navbarNote):active{
+        color: #ffb806;
+    }
+
+    .navbar li:not(#navbarNote):active{
+        background-color: #686868;
+    }
+
+/*========================================================*/
+
+aside{
+    width: 20%; /*When calculating the width, we don't take into account the padding*/
+    float: left;
+    padding: 10px;
+}
+
+
+    aside p{
+        text-align: justify;
+    }
+
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+    section p{
+        text-align: justify;
+    }
+
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+
+}
+
+    article p{
+        text-align: justify;
+    }
+
+footer{
+    display: block;
+    clear: both; /*To unfloat*/
+    background-color: #979797;
+    padding: 25px;
+    text-align: center;
+}
+
+
+
+/*========================================================*/
+
+/*If the width of our screen/window is 600px or below...*/
+@media screen and (max-width: 600px){
+    aside, section, article{ /*... then make sure that these 3 contents*/
+        width: 100%; /*... take 100% width space*/
+    }
+    #navbarNote{
+        font-size: 7px; /*If window's 600px or below, make the font size decrease to 7px.*/
+    }
+}
