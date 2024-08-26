@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #303030;
+    
+}
+
+.title{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    
+}
+
+/*=============== Navigation Bar ===============*/
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #888888;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 25px;
+}
+    .navbar a:not(.here):hover{
+        background-color:#777777;
+    }
+    .navbar a:not(.here):active{
+        background-color: #656565;
+    }
+.navbar .here{
+    background-color: #464646;
+}
+
+/*
+.navbar #here2{
+    background-color: #111111;
+    color: #ffa500;
+}
+.navbar #here3{
+    background-color: #111111;
+    color: #adff2f;
+}
+.navbar #here4{
+    background-color: #111111;
+    color: #87cefa;
+}
+.navbar #here5{
+    background-color: #111111;
+    color: #fff222;
+}
+*/
+
+
+
+/*=============== Main Content ===============*/
+
+#body1{
+    background-color: #f08080;
+}
+#main1{
+    background-color: #ffd2d2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.gallery1{
+    display: inline-block;
+    border: 2px solid #ff427e;
+    margin: 20px;
+    width: 200px;
+    vertical-align: top;
+}
+
+.gallery1 .description{
+    background-color: #ffcad3;
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery1:hover{
+    border: 3px solid #ff0000;
+}
+
+.gallery1 img{
+    display: block;
+    width: 100%;
+    
+    height: auto;
+    
+}
+
+/*---- Page 2 ----*/
+
+
+#body2{
+    background-color: #ffae4a;
+}
+#main2{
+    background-color: #ffe7d2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.gallery2{
+    border: 2px solid #b45a00;
+    margin: 20px;
+    width: 200px;
+    vertical-align: top;
+}
+.gallery2 .description{
+    background-color: #ffdebd;
+    padding: 10px;
+    text-align: center;
+}
+    .gallery2:hover{
+        border: 3px solid #663300;
+    }
+        
+.gallery2 img{
+    display: block;
+    width: 100%;
+}
+
+/*---- Page 3 ----*/
+
+#body3{
+    background-color: #005719;
+}
+#main3{
+    background-color: #d6ffd2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.gallery3{
+    border: 2px solid #00b433;
+    margin: 20px;
+    width: 200px;
+    vertical-align: top;
+}
+.gallery3 .description{
+    background-color: #bdffd8;
+    padding: 10px;
+    text-align: center;
+}
+    .gallery3:hover{
+        border: 3px solid #007126;
+    }
+        
+.gallery3 img{
+    display: block;
+    width: 100%;
+}
+
+/*---- Page 4 ----*/
+
+#body4{
+    background-color: #000a57;
+}
+#main4{
+    background-color: #d2e0ff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.gallery4{
+    border: 2px solid #2f516d;
+    margin: 20px;
+    width: 200px;
+    vertical-align: top;
+}
+.gallery4 .description{
+    background-color: #4ebee4;
+    padding: 10px;
+    text-align: center;
+}
+    .gallery4:hover{
+        border: 3px solid #2e0782;
+    }
+        
+.gallery4 img{
+    display: block;
+    width: 100%;
+}
+
+/*---- Page 5 ----*/
+
+#body5{
+    background-color: #7b7c3d;
+}
+#main5{
+    background-color: #f7e67b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.gallery5{
+    border: 2px solid #524f31;
+    margin: 20px;
+    width: 200px;
+    vertical-align: top;
+}
+.gallery5 .description{
+    background-color: #fffcd7;
+    padding: 10px;
+    text-align: center;
+}
+    .gallery5:hover{
+        border: 3px solid #69460e;
+    }
+        
+.gallery5 img{
+    display: block;
+    width: 100%;
+}
+/*=============== Footer ===============*/
+
+footer{
+    background-color: #303030;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+}
+footer a{
+    color: #ffffff;
+}
+
+
+
