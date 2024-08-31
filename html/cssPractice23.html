@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Flexbox</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Practicing with Flexboxes.">
+    <meta name="keywords" content="HTML, CSS, Flexbox">
+    <meta name="author" content="Kenzo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta http-equiv="refresh" content="60"-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" type="image/jpg" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="/css/style23_flexbox.css">
+</head>
+<body>
+
+    <header>
+        <p id="title">Flexbox</p>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li id="navbarHere"><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Contact</a></li>
+            <li id="navbarNote"><a href="">NAVBAR DOESN'T FUNCTION — JUST A DESIGN!</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <div id="part1">
+            <br>
+        <p class="highlight">flex-direction</p>
+
+        
+
+            <p class="introductoryTitle new">flex-direction: row;
+                <br><span class="subtitle">(Default value)</span>
+            </p>
+                
+    
+                <div id="container1">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                </div>
+
+            <p class="introductoryTitle new">flex-direction: row-reverse;</p>
+
+                <div id="container2">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                </div>
+
+            <p class="introductoryTitle new">flex-direction: column;</p>
+
+                <div id="container3">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                </div>  
+
+            <p class="introductoryTitle new">flex-direction: column-reverse;</p>
+
+                <div id="container4">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                </div>  
+        
+        <hr class="horizontalRule">
+        
+        </div>
+
+        <!--==============================================================================-->
+
+        <div id="part2">
+            <br>
+            <p class="highlight">justify-content</p>
+
+            <p class="introductoryTitle new">justify-content: flex-start;<br>
+                <span class="subtitle">(Default value)</span>
+            </p>
+
+                <p class="description">Justify content sets the alignment on the <b>main axis (X Axis)</b>.</p>
+
+                    <div id="container5">
+                        <div class="box red">Box 1</div>
+                        <div class="box orange">Box 2</div>
+                        <div class="box yellow">Box 3</div>
+                        <div class="box green">Box 4</div>
+                    </div>  
+
+            <p class="introductoryTitle new">justify-content: flex-end;<br></p>
+
+                <div id="container6">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                </div>  
+            
+            <p class="introductoryTitle new">justify-content: center;<br></p>
+            
+                <div id="container7">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                </div>  
+
+            <p class="introductoryTitle new">justify-content: space-between;<br></p>
+            
+                <p class="description">Upon expanding the page, the space between the elements are increasing.</p>
+
+                    <div id="container8">
+                        <div class="box red">Box 1</div>
+                        <div class="box orange">Box 2</div>
+                        <div class="box yellow">Box 3</div>
+                        <div class="box green">Box 4</div>
+                    </div>  
+
+            <p class="introductoryTitle new">justify-content: space-around;</p>
+
+                <p class="description">The space is AROUND the element.</p>
+
+                    <div id="container9">
+                        <div class="box red">Box 1</div>
+                        <div class="box orange">Box 2</div>
+                        <div class="box yellow">Box 3</div>
+                        <div class="box green">Box 4</div>
+                    </div>
+
+
+            <p class="introductoryTitle new">justify-content: space-evenly;</p>
+                <div id="container10">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                </div>
+
+        <hr class="horizontalRule">
+
+        </div>
+
+        <!--==============================================================================-->
+
+        <div id="part3">
+
+            <br>
+            <p class="highlight">align-items</p>
+
+            <p class="introductoryTitle new">align-items:flex-start;<br>
+                <span class="subtitle">(Default value)</span></p>
+
+                <div id="container11">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                </div>
+
+            <p class="introductoryTitle new">align-items:flex-end;<br></p>
+
+                <div id="container12">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                </div>
+
+            <p class="introductoryTitle new">align-items:center;<br></p>
+
+                <div id="container13">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                </div>
+
+            <p class="introductoryTitle new">align-items:baseline;<br></p>
+
+                <p class="description">With baseline, the <b>text gets aligned</b>.</p>
+
+                    <div id="container14">
+                        <div class="box red" id="baseline1">Box 1</div>
+                        <div class="box orange" id="baseline2">Box 2</div>
+                        <div class="box yellow" id="baseline3">Box 3</div>
+                        <div class="box green" id="baseline4">Box 4</div>
+                    </div>
+
+        <hr class="horizontalRule">
+
+        </div>
+
+        <div id="part4">
+        
+        <br>
+
+        <p class="highlight">flex-wrap</p>
+
+        <p class="introductoryTitle new">flex-wrap: wrap;<br></p>
+
+            <p class="description">The contents will <b>wrap if there's not enough space</b>.
+                Try resizing your screen!</p>
+            
+                <div id="container15">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                    <div class="box red">Box 5</div>
+                    <div class="box orange">Box 6</div>
+                    <div class="box yellow">Box 7</div>
+                    <div class="box green">Box 8</div>
+                </div>
+
+        <p class="introductoryTitle new">flex-wrap: wrap-reverse;<br></p>
+            
+            <div id="container16">
+                <div class="box red">Box 1</div>
+                <div class="box orange">Box 2</div>
+                <div class="box yellow">Box 3</div>
+                <div class="box green">Box 4</div>
+                <div class="box red">Box 5</div>
+                <div class="box orange">Box 6</div>
+                <div class="box yellow">Box 7</div>
+                <div class="box green">Box 8</div>
+            </div>
+
+        <p class="introductoryTitle new">flex-wrap: wrap;<br>
+            align-content: flex-start;<br><span class="subtitle">
+            (align-content is tandem with flex-wrap: wrap;)</span></p>
+
+            <p class="description">When resizing your screen and the texts wrap,
+                the space in-between is gone.
+            </p>
+        
+            
+                <div id="container17">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                    <div class="box red">Box 5</div>
+                    <div class="box orange">Box 6</div>
+                    <div class="box yellow">Box 7</div>
+                    <div class="box green">Box 8</div>
+                </div>
+
+        <p class="introductoryTitle new">flex-wrap: wrap;<br>
+            align-content: flex-end;<br><span class="subtitle">
+            (align-content is tandem with flex-wrap: wrap;)</span></p>
+
+            <p class="description">When resizing your screen and the texts wrap,
+                the space in-between is gone.
+            </p>
+        
+            
+                <div id="container18">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                    <div class="box red">Box 5</div>
+                    <div class="box orange">Box 6</div>
+                    <div class="box yellow">Box 7</div>
+                    <div class="box green">Box 8</div>
+                </div>
+
+            <p class="introductoryTitle new">flex-wrap: wrap;<br>
+            align-content: center;<br><span class="subtitle">
+            (align-content is tandem with flex-wrap: wrap;)</span></p>
+            
+                <div id="container19">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                    <div class="box red">Box 5</div>
+                    <div class="box orange">Box 6</div>
+                    <div class="box yellow">Box 7</div>
+                    <div class="box green">Box 8</div>
+                </div>
+
+            <p class="introductoryTitle new">flex-wrap: wrap;<br>
+            align-content: space-evenly;<br><span class="subtitle">
+            (align-content is tandem with flex-wrap: wrap;)</span></p>
+            
+                <div id="container20">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                    <div class="box red">Box 5</div>
+                    <div class="box orange">Box 6</div>
+                    <div class="box yellow">Box 7</div>
+                    <div class="box green">Box 8</div>
+                </div>
+
+            <p class="introductoryTitle new">flex-wrap: wrap;<br>
+            align-content: space-between;<br><span class="subtitle">
+            (align-content is tandem with flex-wrap: wrap;)</span></p>
+            
+                <div id="container21">
+                    <div class="box red">Box 1</div>
+                    <div class="box orange">Box 2</div>
+                    <div class="box yellow">Box 3</div>
+                    <div class="box green">Box 4</div>
+                    <div class="box red">Box 5</div>
+                    <div class="box orange">Box 6</div>
+                    <div class="box yellow">Box 7</div>
+                    <div class="box green">Box 8</div>
+                </div>
+            
+
+
+            <p class="introductoryTitle new">flex-wrap: wrap;<br>
+            align-content: flex-start;<br>column-gap: 32px;<br><span class="subtitle">
+            (align-content is tandem with flex-wrap: wrap;)</span></p>
+
+                <p class="description">Try resizing your screen!</p>
+            
+                    <div id="container22">
+                        <div class="box red">Box 1</div>
+                        <div class="box orange">Box 2</div>
+                        <div class="box yellow">Box 3</div>
+                        <div class="box green">Box 4</div>
+                        <div class="box red">Box 5</div>
+                        <div class="box orange">Box 6</div>
+                        <div class="box yellow">Box 7</div>
+                        <div class="box green">Box 8</div>
+                    </div>
+
+
+            <p class="introductoryTitle new">flex-wrap: wrap;<br>
+            align-content: flex-start;<br>row-gap: 32px;<br>
+            <span class="subtitle">(align-content is tandem with 
+            flex-wrap: wrap;)</span></p>
+
+                <p class="description">Try resizing your screen!</p>
+            
+                    <div id="container23">
+                        <div class="box red">Box 1</div>
+                        <div class="box orange">Box 2</div>
+                        <div class="box yellow">Box 3</div>
+                        <div class="box green">Box 4</div>
+                        <div class="box red">Box 5</div>
+                        <div class="box orange">Box 6</div>
+                        <div class="box yellow">Box 7</div>
+                        <div class="box green">Box 8</div>
+                    </div>
+
+
+
+            <p class="introductoryTitle new">flex-wrap: wrap;<br>
+            align-content: flex-start;<br>column-gap: 32px;<br>
+            row-gap: 32px;<br><span class="subtitle">
+            (align-content is tandem with flex-wrap: wrap;)</p>
+
+                <p class="description">Try resizing your screen!</p>
+            
+                    <div id="container24">
+                        <div class="box red">Box 1</div>
+                        <div class="box orange">Box 2</div>
+                        <div class="box yellow">Box 3</div>
+                        <div class="box green">Box 4</div>
+                        <div class="box red">Box 5</div>
+                        <div class="box orange">Box 6</div>
+                        <div class="box yellow">Box 7</div>
+                        <div class="box green">Box 8</div>
+                    </div>
+
+        <hr class="horizontalRule">
+
+        </div>
+
+        <!--==============================================================================-->
+
+
+        <div class="part5">
+
+        <br>
+
+            <p class="highlight">align-self, order</p>
+
+
+            <p class="introductoryTitle new">align-self;</p>
+                
+                        <div id="container25">
+                            <div class="boxPart5 red" id="c25b1">align-self: start;</div>
+                            <div class="boxPart5 orange" id="c25b2">align-self: center;</div>
+                            <div class="boxPart5 yellow" id="c25b3">align-self: end;</div>
+                            <div class="boxPart5 green" id="c25b4">align-self: center;</div>
+                        </div>
+
+
+        
+            <p class="introductoryTitle new">order;</p>
+                
+                <p class="description"><b>order: -1;</b> = beginning. | <b>order: 1;</b> = end.</p>
+                        <div id="container26">
+                            <div class="boxPart5 red" id="c26b1">Box 1 <br> order: 1;</div>
+                            <div class="boxPart5 orange" id="c26b2">Box 2 <br> order: -1;</div>
+                            <div class="boxPart5 yellow" id="c26b3">Box 3</div>
+                            <div class="boxPart5 green" id="c26b4">Box 4</div>
+                        </div>
+
+
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        Author: Kenzo<br>
+        &copy: Copyright reserve<br>
+        <a href="notsorealgmail@gmail.com">
+            notsorealgmail@gmail.com
+        </a>
+    </footer>
+</body>
+</html>
