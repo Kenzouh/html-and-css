@@ -1,0 +1,126 @@
+
+body{
+    margin: 0px;
+    background-color: #e1faff;
+}
+header{
+    background-color: #a4dcff;
+    
+}
+#title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+
+/* ========= Navbar ========= */
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #444444;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+}
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 25px;
+}
+
+.navbar li{
+    float: left;
+}
+
+#here{
+    background-color: #222222;
+}
+
+    .navbar li:hover:not(#here, #navbarNote){
+        background-color: #404040;
+    }
+    /*.navbar li:hover:not(#here):not(#navbarNote){}*/
+
+    .navbar li:active:not(#here, #navbarNote){
+        background-color: #303030;
+    }
+#navbarNote{
+    margin-left: auto;
+}
+
+/* ========= Main ========= */
+
+main{
+    text-align: center;
+}
+
+
+.icons a{
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+    /*Spaces can be replaced with dots*/
+    .fa-solid.fa-house.fa-10x{
+        color: #222222;
+    }
+
+    .fa-brands.fa-square-x-twitter.fa-10x{
+        color: #000000;
+    }
+        .fa-brands.fa-square-x-twitter.fa-10x:hover{
+            color: #222222;
+        }
+        .fa-brands.fa-square-x-twitter.fa-10x:active{
+            color: #444444;
+        }
+
+    .fa-brands.fa-youtube.fa-10x{
+        color: #ff0000;
+    }
+        .fa-brands.fa-youtube.fa-10x:hover{
+            color: #ff5555;
+        }
+
+        .fa-brands.fa-youtube.fa-10x:active{
+            color: #ff9191;
+        }
+
+    .fa-brands.fa-github.fa-10x{
+        color: #000000;
+    }
+        .fa-brands.fa-github.fa-10x:hover{
+            color: #222222;
+        }
+        .fa-brands.fa-github.fa-10x:active{
+            color: #444444;
+        }
+
+    .fa-brands.fa-discord.fa-shake.fa-10x{
+        color: #7289d9;
+    }
+        .fa-brands.fa-discord.fa-shake.fa-10x:hover{
+            color: #5d74c5;
+        }
+        .fa-brands.fa-discord.fa-shake.fa-10x:active{
+            color: #374474;
+        }
+
+/* ========= Footer ========= */
+
+footer{
+    color: #ffffff;
+    background-color: #444444;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    color: #a4dcff;
+}
