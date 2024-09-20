@@ -1,0 +1,394 @@
+/*
+    Transform = CSS property that lets you ROTATE, SCALE, SKEW, TRANSLATE an element.
+*/
+
+body{
+    margin: 0px;
+}
+
+header{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: #ffffe0;
+    padding: 25px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #ffff68;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 25px;
+}
+.navbar li{
+    float: left;
+}
+
+    .navbar li:hover:not(#navbarHere, #navbarNote){
+        background-color: #c0c04d;
+    }
+
+    .navbar li:active:not(#navbarHere, #navbarNote){
+        background-color: #98983c;
+    }
+
+
+#navbarHere{
+    background-color: #696934;
+}
+
+#navbarNote{
+    margin-left: auto;
+}
+#navbarNote a{
+    font-weight: bold;
+}
+
+/*================= Main =================*/
+
+
+main{
+    background-color: #cff3ff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.containerTitle{
+    color: #570a46;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*== Container 1 ==*/
+
+#container1{
+    margin: auto;
+    background-color: #a9a9ff;
+    width: 1400px;
+    height: 800px;
+    
+
+    border: 5px solid #000000;
+}
+
+
+.c1Box{
+    font-size: 20px;
+    text-align: center;
+
+    height: 125px;
+    width: 125px;
+
+    padding: 10px;
+    border: 3px solid;
+    
+
+}
+
+    #c1Box1{
+        background-color: #ffabab;
+
+        transform: translateX(100px);
+    }
+
+    #c1Box2{
+        background-color: #ffd4c3;
+
+        transform: translateY(-20px);
+    }
+    #c1Box3{
+        background-color: #f6ffe2;
+        
+                    /*       40px, -40px%
+                    Negative: to the left/upwards 
+                    Positive: to the right/downwards
+                    */
+        transform: translate(40px, -40px);
+              /* translate = X axis, Y axis*/
+    }
+    #c1Box4{
+        background-color: #d3d6ff;
+        
+        transform: translate(-30px, 80px);
+    }
+    #c1Box5{
+        background-color: #d896d8;
+        
+        transform: translate(500px, -400px);
+    }
+
+/*== Container 2 ==*/
+
+#container2{
+    background-color: #ffd5b9;    
+
+    width: 1400px;
+    height: 900px;
+
+    margin: auto;
+
+    border: 5px solid #000000;
+}
+
+
+.c2Box{
+    font-size: 20px;
+    text-align: center;
+
+    height: 125px;
+    width: 125px;
+
+    padding: 20px;
+    border: 3px solid #000000;
+}
+
+
+    #c2Box1{
+        background-color: #f2b6ff;
+
+        transform: rotateX(45deg);
+    }
+
+    #c2Box2{
+        background-color: #fffdb6;
+
+        transform: rotateY(40deg);
+    }
+
+    #c2Box3{
+        background-color: #bcff9d;
+
+        transform: rotateZ(25deg);
+    }
+
+    #c2Box4{
+        background-color: #96acfc;
+
+        transform: rotateZ(50deg);
+    }
+
+    #c2Box5{
+        background-color: #ef9fff;
+
+        transform: rotateZ(-50deg);
+    }
+
+/*== Container 3 ==*/
+
+#container3{
+    background-color: #b2ffd5;    
+
+    width: 1400px;
+    height: 900px;
+
+    margin: auto;
+
+    border: 5px solid #000000;
+}
+
+
+.c3Box{
+    font-size: 20px;
+    text-align: center;
+
+    height: 125px;
+    width: 125px;
+
+    padding: 20px;
+    border: 3px solid #000000;
+}
+
+
+    #c3Box1{
+        background-color: #ffe2b7;
+        
+        transform: scaleX(1.5); /*150%*/
+    }
+
+    #c3Box2{
+        background-color: #ce95f4;
+
+        transform: scaleY(0.50); /*50%*/
+    }
+
+    #c3Box3{
+        background-color: #886aff;
+        transform: scaleY(1.25); /*125%*/
+    }
+
+    #c3Box4{
+        background-color: #ffe2b7;
+                        /*X    Y*/
+        transform: scale(0.75, 1);
+    }
+
+    #c3Box5{
+        background-color: #ffe2b7;
+
+        transform: scale(1.5, 1.5);
+    }
+
+/*== Container 4 ==*/
+
+#container4{
+    background-color: #ff95e4;    
+
+    width: 1400px;
+    height: 1200px;
+
+    margin: auto;
+
+    border: 5px solid #000000;
+}
+
+
+.c4Box{
+    font-size: 20px;
+    text-align: center;
+
+    height: 125px;
+    width: 125px;
+
+    padding: 20px;
+    border: 3px solid #000000;
+}
+
+    #c4Box1{
+        background-color: #c0ff89;
+
+        transform: skewX(20deg);
+    }
+
+    #c4Box2{
+        background-color: #c0ff89;
+
+        transform: skewX(-20deg);
+    }
+
+    #c4Box3{
+        background-color: #f4dca9;
+
+        transform: skewY(20deg);
+    }
+
+    #c4Box4{
+        background-color: #f4dca9;
+        
+        transform: skewY(-20deg);
+    }
+
+    #c4Box5{
+        background-color: #ff8991;
+
+        transform: skew(10deg); /*Applies to both X and Y axis.*/
+    }
+    #c4Box6{
+        background: #ff8991;
+
+        transform: skew(-10deg);
+    }
+
+/*== Container 5 ==*/
+
+#container5{
+    background: linear-gradient(to right, #ffdbaa, #ff9696);
+
+    width: 1400px;
+    height: 1300px;
+
+    margin: auto;
+
+    border: 5px solid #000000;
+}
+
+
+.c5Box{
+    font-size: 20px;
+    text-align: center;
+
+    height: 125px;
+    width: 125px;
+
+    padding: 20px;
+    border: 3px solid #000000;
+
+    margin-bottom: 0px;
+}
+
+    #c5Box1{
+        background-color: #eebcff;
+
+        transform: translateX(450%) rotateZ(10deg) scale(0.75);
+    }
+    #c5Box2{
+        background-color: #ecffbc;
+
+        transform: translate(200px) rotateZ(-10deg) scale(1.5);
+    }
+    #c5Box3{
+        background-color: #ffe89e;
+
+        transform: translateX(550%) rotateZ(30deg) scale(2);
+    }
+    #c5Box4{
+        background-color: #9cfff3;
+
+        transform: translate(250%) rotateZ(-50deg);
+    }
+    #c5Box5{
+        background-color: #fff200;
+
+        transform: translate(300%, -280%) scale(1.5);
+
+    }
+    #c5Box6{
+        background-color: #eebcff;
+
+        transform: translate(400%) scale(2.5);
+    }
+    #c5Box7{
+        background-color: #11bcb9;
+
+        transform: translate(300%) rotateZ(-25deg);
+        
+    }
+    #c5Box8{
+        background-color: #c53693;
+
+        transform: translate(500%, -100%) rotateZ(25deg);
+    }
+
+    img{
+        display: block;
+        transform: translate(-1000px, -2500px) scale(.10);
+    }
+
+
+    
+/*================= Footer =================*/
+
+
+footer{
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: center;
+
+    background-color: #ffffe0;
+    
+    padding: 25px;
+}
